@@ -8,9 +8,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   g. Footer
 
 ===================================================================== */
 
@@ -100,27 +98,6 @@ header .social li {
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
-/* scrolldown link */
-header .scrolldown a {
-   position: absolute;
-   bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
-   color: #fff;
-   display: block;
-   height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
-   color: #fff;
-   border-radius: 100%;
-
-   -webkit-transition: all .3s ease-in-out;
-   -moz-transition: all .3s ease-in-out;
-   -o-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
-}
-/* header .scrolldown a:hover { color: #11ABB0; } */
 /* my photo profile
 ------------------------------------------------------*/
 .myphoto {
@@ -132,11 +109,8 @@ header .scrolldown a {
    height: 120px;
    background: #161415 url(../images/photo.jpg) no-repeat top center;
 }
-/* p {
-   color: red;
-} */
-#home.photoprofile {
 
+#home.photoprofile {
    position: relative;
    width: 120px;
    height: 120px;
@@ -149,14 +123,12 @@ header .scrolldown a {
    margin-top: 10px;
    margin-bottom: 8px;
    margin-left: 30px;
-  text-align: left;
+   text-align: left;
    width: 300px;
    height: 180px;
-   /* font-size: xx-small; */
    border-radius: 10px;
-  color: white;
+   color: white;
    display: block;
-   /* justify-content: flex-start; */
    padding: 20px;
    position: absolute;
 }
@@ -166,39 +138,27 @@ header .scrolldown a {
    color: #F06000;
    letter-spacing: 2.5px;
    text-align: left;
-  
 }
 
 .mycontact li i{
    padding-right: 20px;
    font-size: 18px;
-   line-height: 25px;
+   line-height: 20px;
    font-weight: normal;
-   
-   /* position: relative; */
-   /* display: block; */
 }
 
 .mycontact span {
    text-transform: none;
-   /* color: white; */
    letter-spacing: 2px;
-   /* padding-right: -70px; */
-   /* font-size: 8px; */
    font: 8px 'opensans', sans-serif;
 }
 .mycontact li a i {
    font-size: 8px 'opensans', sans-serif;
-   /* font: normal normal normal 10px FontAwesome; */
    color: white;
    padding-right: 20px;
    align-items: left;
-  line-height: 25px;
- display: inline- block;
- 
-   /* float: left; */
-  /* position:  */
- 
+   line-height: 25px;
+   display: inline- block;
 }
 
 .mycontact span:hover {
@@ -208,42 +168,31 @@ header .scrolldown a {
 /* hobbies
 ---------------------------------------------------------*/
 .hobbies {
-   /* border: 2px solid white; */
    background: linear-gradient(to top, black, rgb(20, 29, 40), black);
    box-shadow: 1px 3px 10px rgb(20, 29, 40);
-/* background: white; */
    margin-top: 5px;
-   /* margin-bottom: 8px; */
    margin-left: 30px;
    top: 190px;
    width: 300px;
    height: 150px;
-   /* font-size: xx-small; */
    border-radius: 10px;
    display: block;
-   /* justify-content: flex-start; */
    padding: 15px;
    position: relative;
-
 }
 
 .hobbieslist li {
    border: 5px solid green;
-display: inline-block;
-
-/* text-align: left; */
-
+   display: inline-block;
 }
 
 .hobbiessidebar {
-   /* border: 2px solid yellow; */
    margin-top: -20px;
    letter-spacing: 20px;
    line-height: 30px;
 }
 
 .hobbieslist li .myhobbies {
-   /* border: 2px solid red; */
    padding-top: -20px;
    border-radius: 5px;
 }
@@ -254,8 +203,7 @@ display: inline-block;
 	 margin: 0;
 	 padding: 0;
 	 border: none;
-    outline: none;
-   
+    outline: none; 
 }
 
 /* nav-wrap */
@@ -269,7 +217,7 @@ display: inline-block;
    position: fixed;
    left: 0;
    top: 0;
-  
+
 }
 
 /* hide toggle button */
@@ -278,11 +226,10 @@ display: inline-block;
 ul#nav {
    min-height: 48px;
    width: 300px;
-      background: linear-gradient(to top, black, rgb(20, 29, 40), black);
+   background: linear-gradient(to top, black, rgb(20, 29, 40), black);
    box-shadow: 1px 3px 10px rgb(20, 29, 40);
    border-radius: 10px;
-   /* opacity:0.5; */
-  margin-left: 30px;
+   margin-left: 30px;
 
    /* center align the menu */
    text-align: center;
@@ -293,7 +240,6 @@ ul#nav li {
    height: 48px;
    display: block;
    text-align: left;
-  
 }
 
 /* Links */
@@ -331,7 +277,6 @@ ul#nav li.current a { color: #F06000; }
    float: right;
    width: 74.5%;
    margin-right: 40px;
-   /* height: 400px; */
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -440,24 +385,18 @@ ul#nav li.current a { color: #F06000; }
    
 }
 .bars .skills {
-     margin-top: 10px;
-     margin-bottom: 10px;
-   /* list-style: none; */
+   margin-top: 10px;
+   margin-bottom: 10px;
    color: rgb(105,105,105);
    display: flex;
-   flex-flow: row wrap;
-   /* position: relative; */
-   
+   flex-flow: row wrap;  
 }
 
 .bars li em {
-   /* border: 1px solid red; */
    display: inline-block;
    padding: 5px;
    margin-left: 20px;
    font-size: 16px;
-   /* text-align: left; */
-   /* width: 100px; */
 }
 
 /* ------------------------------------------------------------------ */
@@ -465,7 +404,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background:#ebeeee;
    padding-top: 50px;
    padding-bottom: 60px;
    float: right;
@@ -642,7 +581,6 @@ ul#nav li.current a { color: #F06000; }
    background: #212121;
    padding-top: 66px;
    padding-bottom: 48px;
-  
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
@@ -827,8 +765,8 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a, footer a:visited { color:#fff;; }
+footer a:hover, footer a:focus { color:#11ABB0; }
 
 /* social links */
 footer .social-links {
